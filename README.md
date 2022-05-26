@@ -1,2 +1,2 @@
 # My-SoftUni-Projects
-Different tasks from my education @ SoftUni.
+Here you will find different tasks from my education @ SoftUni.
