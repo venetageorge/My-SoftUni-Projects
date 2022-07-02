@@ -1,19 +1,10 @@
 function employees(arr) {
-    const employees = {
-        name: [],
-        personalNumber: [],
-    };
+    let listObject = {};
 
-    for (const employee of arr) {
-        employees.name.push(employee);
-        employees.personalNumber.push(employee.length);
-    }
-    const value = Object.values(employees);
-
-    for (let i = 0; i < value[0].length; i++) {
-        console.log(
-            `Name: ${employees.name[i]} -- Personal Number: ${employees.personalNumber[i]}`
-        );
+    for (let person of arr) {
+        listObject.employeeName = person;
+        listObject.personalNum = person.length; 
+    console.log(`Name: ${listObject.employeeName} -- Personal Number: ${listObject.personalNum}`);
     }
 }
 employees([
